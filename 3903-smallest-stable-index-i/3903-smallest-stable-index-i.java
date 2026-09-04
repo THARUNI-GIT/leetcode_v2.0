@@ -1,27 +1,21 @@
 class Solution {
     public int firstStableIndex(int[] nums, int k) {
-        for(int i = 0; i < nums.length; i++){
-            int diff = findMax(nums,i) - findMin(nums,i);
-            if(diff <= k){
-                return i;
-            }
+        int n = nums.length;
+        int[] prefix = new int[n];
+        int[] suffix = new int[n];
+        int max = Integer.MIN_VALUE;
+        for(int i = 0; i < n; i++){
+            max = Math.max(max,nums[i]);
+            prefix[i] = max;
+        }
+        int min = Integer.MAX_VALUE;
+        for(int i = n-1; i >= 0; i--){
+            min = Math.min(min,nums[i]);
+            suffix[i] = min;
+        }
+        for(int i = 0; i < n; i++){
+            if(prefix[i] - suffix[i] <= k) return i;
         }
         return -1;
-    }
-
-    public int findMax(int[] arr, int i){
-        int max = Integer.MIN_VALUE;
-        for(int j = 0; j <= i; j++){
-            max = Math.max(max,arr[j]);
-        }
-        return max;
-    }
-
-    public int findMin(int[] arr, int i){
-        int min = Integer.MAX_VALUE;
-        for(int j = i; j < arr.length; j++){
-            min = Math.min(min,arr[j]);
-        }
-        return min;
     }
 }
