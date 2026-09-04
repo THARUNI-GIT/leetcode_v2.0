@@ -6,6 +6,7 @@
 | ------- | ------- |
 | [0169-majority-element](https://github.com/THARUNI-GIT/leetcode_v2.0/tree/main/0169-majority-element/) | Easy |
 | [1004-max-consecutive-ones-iii](https://github.com/THARUNI-GIT/new_leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
+| [3876-construct-uniform-parity-array-ii](https://github.com/THARUNI-GIT/leetcode_v2.0/tree/main/3876-construct-uniform-parity-array-ii/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -38,4 +39,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/THARUNI-GIT/leetcode_v2.0/tree/main/0169-majority-element/) | Easy |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3876-construct-uniform-parity-array-ii](https://github.com/THARUNI-GIT/leetcode_v2.0/tree/main/3876-construct-uniform-parity-array-ii/) | Medium |
 <!---LeetCode Topics End-->
