@@ -8,6 +8,7 @@
 | [1004-max-consecutive-ones-iii](https://github.com/THARUNI-GIT/new_leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [3876-construct-uniform-parity-array-ii](https://github.com/THARUNI-GIT/leetcode_v2.0/tree/main/3876-construct-uniform-parity-array-ii/) | Medium |
 | [3903-smallest-stable-index-i](https://github.com/THARUNI-GIT/leetcode_v2.0/tree/main/3903-smallest-stable-index-i/) | Easy |
+| [3904-smallest-stable-index-ii](https://github.com/THARUNI-GIT/leetcode_v2.0/tree/main/3904-smallest-stable-index-ii/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -21,6 +22,7 @@
 | ------- | ------- |
 | [1004-max-consecutive-ones-iii](https://github.com/THARUNI-GIT/new_leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [3903-smallest-stable-index-i](https://github.com/THARUNI-GIT/leetcode_v2.0/tree/main/3903-smallest-stable-index-i/) | Easy |
+| [3904-smallest-stable-index-ii](https://github.com/THARUNI-GIT/leetcode_v2.0/tree/main/3904-smallest-stable-index-ii/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
